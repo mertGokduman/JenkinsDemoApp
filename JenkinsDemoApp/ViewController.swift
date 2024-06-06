@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     private lazy var trialView: UIView = {
         let view = UIView(frame: .zero)
+        view.backgroundColor = .blue
         return view
     }()
 
